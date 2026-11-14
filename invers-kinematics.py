@@ -1,10 +1,10 @@
 import numpy as np
 
 # nim : 25/561250/TP/14515
-input1 = input("Titik awal x: ")
-input2 = input("Titik awal y: ")
-input3 = input("Titik akhir x: ")
-input4 = input("Titik akhir y: ")
+input1 = input("Masukkan koordinat x titik awal: ")
+input2 = input("Masukkan koordinat y titik awal: ")
+input3 = input("Masukkan koordinat x titik akhir: ")
+input4 = input("Masukkan koordinat y titik akhir: ")
 titikAkhir_x = float(input3) - float(input1)
 titikAkhir_y = float(input4) - float(input2)
 
