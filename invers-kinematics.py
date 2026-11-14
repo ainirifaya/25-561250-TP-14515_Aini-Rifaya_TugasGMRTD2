@@ -1,11 +1,12 @@
 import numpy as np
 
 # nim : 25/561250/TP/14515
-
-input1 = input("Titik akhir x: ")
-titikAkhir_x = float(input1)
-input2 = input("Titik akhir y: ")
-titikAkhir_y = float(input2)
+input1 = input("Titik awal x: ")
+input2 = input("Titik awal y: ")
+input3 = input("Titik akhir x: ")
+input4 = input("Titik akhir y: ")
+titikAkhir_x = float(input3) - float(input1)
+titikAkhir_y = float(input4) - float(input2)
 
 a = 15
 b = 50
